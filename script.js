@@ -1,3 +1,3 @@
-var userName = prompt("Enter your name")
+var btnTranslate = document.querySelector("#btn-translate"); //getElementById("") can also be used
 
-alert("Your name is " + userName)
+btnTranslate.addEventListener("click", () => console.log('click'))
