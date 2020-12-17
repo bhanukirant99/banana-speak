@@ -1,3 +1,8 @@
-var btnTranslate = document.querySelector("#btn-translate"); //getElementById("") can also be used
+var btnTranslate = document.querySelector("#btn-translate");
+var textAreaValue = document.getElementById("text-area-value");
 
-btnTranslate.addEventListener("click", () => console.log('click'))
+function takeInput () {
+    console.log("textAreaValue", textArea.value)
+}
+
+btnTranslate.addEventListener("click", takeInput)
