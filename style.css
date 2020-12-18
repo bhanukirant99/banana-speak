@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --primary-color: #536DFE;
-    --dark-gray: #939393;
-    --light-gray: #F3F4F6;
+    --primary-color:#FDE68A;
+    --light-gray: #374151;
 }
 
 body {
-    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
@@ -40,7 +38,7 @@ h1 {
     margin-left: 1rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: var(--light-gray);
     font-size: x-large;
     padding: 0.5rem;
 }
@@ -72,7 +70,7 @@ h1 {
 .footer {
     background-color: var(--primary-color);
     padding: 2rem;
-    color: white;
+    color: var(--light-gray);
     border-top-right-radius: 1rem;
     text-align: center;
 }

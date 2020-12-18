@@ -3,7 +3,7 @@ var textAreaValue = document.getElementById("text-area-value");
 var translateOutput = document.getElementById("translate-output")
 // var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
-const url = "https://api.funtranslations.com/translate/groot.json"; 
+const url = "https://api.funtranslations.com/translate/ferb-latin.json"; 
 
 const getTranslateURL = (text) => {
     return url + "?" + "text=" + text;
