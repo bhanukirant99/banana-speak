@@ -1,7 +1,9 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var textAreaValue = document.getElementById("text-area-value");
 var translateOutput = document.getElementById("translate-output")
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+
+const url = "https://api.funtranslations.com/translate/groot.json"; 
 
 const getTranslateURL = (text) => {
     return url + "?" + "text=" + text;
